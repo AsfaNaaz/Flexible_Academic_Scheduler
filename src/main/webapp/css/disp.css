@@ -1,0 +1,41 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:montserrat;
+	background: linear-gradient(120deg,#2980b9,#8e44ad);
+	height:100vh;
+	overflow:hidden;
+}
+
+.navbar {
+    background-color: #0000a0; /* Background color of the navbar */
+    
+    overflow: hidden; /* To clear floats */
+}
+
+/* Style the navbar list */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navbar list items */
+.navbar li {
+    float: left; /* Float the list items to create a horizontal navbar */
+}
+
+/* Style the navbar links */
+.navbar a {
+    display: block; /* Make the links block-level for better styling */
+    color: white; /* Text color */
+    text-align: center; /* Center-align text within list items */
+    padding: 14px 16px; /* Padding around each link */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    background-color: #555; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
